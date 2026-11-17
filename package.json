@@ -1,0 +1,17 @@
+{
+  "name": "incident-correlation-engine",
+  "version": "1.0.0",
+  "description": "JavaScript 告警关联与根因候选库，处理服务依赖、重复事件、抑制和时间线",
+  "type": "module",
+ "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
